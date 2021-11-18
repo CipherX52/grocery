@@ -1,7 +1,14 @@
 var press = document.getElementById("trip");
+press.addEventListener("click", trigger);
 
-
-press.addEventListener("click",fetch);
+function trigger(){
+if (press.innerText==="View Grocery List"){
+    fetch();
+}
+else{
+    hide()
+}
+}
 
 function hide(){
     document.getElementById("content").innerHTML = "";
@@ -16,7 +23,6 @@ function fetch(){
             var response = JSON.parse(this.responseText);
             var items = response.products;
             var output = '';
-            output += '<button type="button" class="btn btn-outline-primary switch" id="hide">Hide List</button>';
             output += '<table class="table table-dark table-hover table-bordered">';
             output += '<thead><tr><th scope="col">Sl No.</th>';
             output += '<th scope="col">Item Name</th>';
@@ -40,5 +46,6 @@ function fetch(){
     }
     xhttp.open("GET","./badge.json",true);
     xhttp.send();
+    press.innerText = "Hide Grocery List";
 }
 
