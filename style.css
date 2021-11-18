@@ -8,3 +8,14 @@
     margin-right:30px;
     margin-top:30px;
 }
+
+#trip{
+    width: 25%;
+    font-size: larger;
+    font-weight: 600;
+}
+
+body{
+    background-image: url("./bg.jpg");
+    background-size: cover;
+}

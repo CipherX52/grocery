@@ -6,7 +6,7 @@ if (press.innerText==="View Grocery List"){
     fetch();
 }
 else{
-    hide()
+    hide();
 }
 }
 
@@ -23,7 +23,7 @@ function fetch(){
             var response = JSON.parse(this.responseText);
             var items = response.products;
             var output = '';
-            output += '<table class="table table-dark table-hover table-bordered">';
+            output += '<table class="table table-dark table-hover table-bordered border-primary border border-5">';
             output += '<thead><tr><th scope="col">Sl No.</th>';
             output += '<th scope="col">Item Name</th>';
             output += '<th scope="col">Quantity</th>';
@@ -48,4 +48,3 @@ function fetch(){
     xhttp.send();
     press.innerText = "Hide Grocery List";
 }
-
