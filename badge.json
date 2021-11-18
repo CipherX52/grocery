@@ -1,0 +1,84 @@
+{
+    "products":[
+        {
+            "snum":"1",
+            "name":"Wheat Flour",
+            "quant":"2",
+            "unit":"kg",
+            "dept":"General Store",
+            "notes":"Any packet, not loosely sold"
+        },
+        {
+            "snum":"2",
+            "name":"Sugar",
+            "quant":"1",
+            "unit":"kg",
+            "dept":"General Store",
+            "notes":"Prefer packed sugar"
+        },
+        {
+            "snum":"3",
+            "name":"Coconut Oil",
+            "quant":"1",
+            "unit":"litre",
+            "dept":"General Store",
+            "notes":"Kera"
+        },
+        {
+            "snum":"4",
+            "name":"Soy Sauce",
+            "quant":"200",
+            "unit":"mL",
+            "dept":"General Store",
+            "notes":"Ching's Dark Soy Sauce"
+        },
+        {
+            "snum":"5",
+            "name":"Rice",
+            "quant":"2",
+            "unit":"kg",
+            "dept":"General Store",
+            "notes":"Pre-packed sorted matta rice"
+        },
+        {
+            "snum":"6",
+            "name":"Cheese",
+            "quant":"200",
+            "unit":"g",
+            "dept":"Dairy",
+            "notes":"Amul sliced cheese"
+        },
+        {
+            "snum":"7",
+            "name":"Eggs",
+            "quant":"8",
+            "unit":"No.(s)",
+            "dept":"Meat",
+            "notes":"Get them as fresh as possible"
+        },
+        {
+            "snum":"8",
+            "name":"Fish",
+            "quant":"500",
+            "unit":"g",
+            "dept":"Meat",
+            "notes":"Get sardines"
+        },     
+        {
+            "snum":"9",
+            "name":"Bathing soap",
+            "quant":"4",
+            "unit":"No.(s)",
+            "dept":"Toiletries",
+            "notes":"Cinthol or Pears"
+        },
+        {
+            "snum":"10",
+            "name":"Disinfectant",
+            "quant":"1",
+            "unit":"litre",
+            "dept":"Toiletries",
+            "notes":"Lizol floor cleaner"
+        }
+    ]
+}
